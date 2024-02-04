@@ -111,10 +111,10 @@ padding-bottom: 5px;
     font-size: 14px;
 }
 
-.video{
-  display: flex;
-
-}
-.vid1{
-     max-height: 10vh;
+.video-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
 }
