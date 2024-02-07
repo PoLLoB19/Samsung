@@ -764,11 +764,42 @@ color: black;
 }
 
 .mul-three{
-  background-color:#EEEADF;
+  background: rgb(208,219,213);
+  background: linear-gradient(4deg, rgba(208,219,213,1) 0%, rgba(240,235,225,1) 43%);
   
   margin-top: 10%;
   border-radius: 45px;
-  width: 80vw;
-  margin-left: 10%;
+  width: 98vw;
+  overflow: hidden;
+  
 }
 
+.vid-mul{
+  width: 99vw;
+  border-radius: 25px 0;
+}
+.meet{
+  padding-left: 20%;
+}
+.meet-one{
+  font-size: 45px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  padding-bottom: 2%;
+}
+.meet-two{
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  color: rgba(0, 0, 0, 0.562);
+}
+
+.vida{
+  width: 30vw;
+}
+.atd{
+ margin-left: 10%;
+ border-radius: 25px;
+}
+.atv{
+ border-radius: 25px;
+}
