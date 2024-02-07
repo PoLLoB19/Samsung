@@ -65,7 +65,7 @@
   border-top: 2px solid #38c2e9;
 }
 .content {
-  height: 1080vh;
+ height: 2000vh;
   width: 100%;
   background-color: #f4f4f4;
 }
@@ -529,18 +529,23 @@
   width: 10vw;
 }
 
+
 .another {
   display: flex;
   justify-content: end;
   align-items: center;
-  padding-left: 5%;
-  position: absolute;
-  right: 28% ;
-  bottom: 0;
-  width: 35vw;
+   width: 30vw;
+   background-color: white;
+   padding-left: 35%;
+}
+
+.grid-img{
+  display: grid;
+  grid-template-columns: auto;
+
 }
 .de{
-    padding-left: 20%;
+    padding-left: 15%;
 }
 
 .on {
@@ -550,25 +555,35 @@
   font-family: "Roboto", sans-serif;
   font-weight: 600;
   color: #606c79;
-  font-size: 15px;
+  font-size: 12px;
 }
 .gr {
   color: #3b3d3f;
   font-family: "Roboto", sans-serif;
   font-weight: 600;
   padding-left: 10px;
+  font-size: 12px;
 }
 .ghi {
   background-color: #c7c8ca;
+    height: 20px;
+  width: 20px;
+  
 }
 .blue {
   background-color: #6f8aad;
+    height: 20px;
+  width: 20px;
 }
 .dib {
   background-color: #749d8c;
+    height: 20px;
+  width: 20px;
 }
 .dibt {
   background-color: #ffd175;
+    height: 20px;
+  width: 20px;
 }
 .bet {
   display: flex;
@@ -583,7 +598,7 @@
 
   border-radius: 15px;
   background-color: #f6f6f6;
-  padding: 2%;
+  padding: 3%;
   width: 20vw;
   margin-right: 10%;
 }
@@ -605,7 +620,7 @@
 
 .mul-two {
   background-color: #ffffff;
-  
+  height: 570vh;
   margin-top: 10%;
   border-radius: 45px;
   width: 80vw;
@@ -632,8 +647,8 @@
 .self {
     height: auto;
     width: auto;
-  border-radius: 25px 25px;
-  margin-left: 25%;
+  border-radius: 25px ;
+  margin-left: 20%;
   margin-top: 5%;
 }
 .sel-two {
@@ -647,7 +662,7 @@
 .pose {
   display: flex;
   justify-content: center;
-  width: 15vw;
+  width: 25vw;
   padding-left: 48%;
   padding-top: 5%;
   font-family: "Roboto", sans-serif;
@@ -657,16 +672,103 @@
 
 .at{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 10%;
     margin-right: 5%;
-    width: 80vw;
+    width: 60vw;
+    padding-left: 15%;
+    align-items: center;
 }
-
+.at-first{
+font-size: 25px;
+font-weight: 800;
+width: 20vw;
+padding-bottom: 5%;
+font-family: "Roboto", sans-serif;
+color: black;
+}
 .at-sec{
     width: 20vw;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    padding-bottom: 10%;
+    color: rgba(0, 0, 0, 0.719);
 }
 .at-thi{
     width: 20vw;
+    font-family: "Roboto", sans-serif;
+    padding-bottom: 10%;
+    color: rgba(0, 0, 0, 0.568);
+    font-size: 15px;
+}
+
+.sel-to{
+  display: flex;
+}
+.free{
+  width: 25vw;
+}
+.at-im{
+  padding-right: 10%;
+}
+.to{
+  padding-left: 5%;
+}
+.twe{
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 10%;
+}
+.twel{
+  position: absolute;
+  font-size: 15px;
+}
+.tov-v{
+  border-radius: 25px;
+
+}
+.tov-vi{
+  margin-left: 15%;
+}
+.lock{
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  width: 50vw;
+  margin: 15% ;
+  gap: 30px;
+  background-color: #f4f4f4;
+  align-items: center;
+  padding:5%;
+  border-radius: 25px;
+  
+}
+.lock-img{
+  grid-row: 1/span 2;
+}
+.lock-one{
+  grid-row: 1;
+  font-size: 35px;
+  width: 30vw;
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 5%;
+}
+.lock-two{
+  grid-row: 2;
+  font-family: 'Open Sans', sans-serif;
+  width: 30vw;
+}
+.lock-writings{
+ padding-left: 15%;
+}
+
+.mul-three{
+  background-color:#EEEADF;
+  
+  margin-top: 10%;
+  border-radius: 45px;
+  width: 80vw;
+  margin-left: 10%;
 }
 
