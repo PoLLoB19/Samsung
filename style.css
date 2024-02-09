@@ -1475,4 +1475,99 @@ padding: 0;
   width: 50vw;
 }
 
+.meet{
+  padding-left: 20px;
+}
+.meet-one{
+  font-size: 25px;
+  width: 70vw;
+}
+.meet-two{
+  font-size: 10px;
+}
+.cus-flex{
+  display: none;
+}
+.custo{
+  font-size: 20px;
+  width: 60vw;
+ 
+}
+.cus{
+ margin-left: 0;
+}
+.custom{
+  display: flex;
+  flex-wrap: wrap;
+}
+.custom-box{
+  width: 80vw;
+  height: auto;
+
+}
+.custom-image{
+  height: 12vh;
+  width: 15vw;
+}
+.custom-text{
+  padding-left: 50px;
+  width: 80vw;
+  font-size: 10px;
+}
+
+.drop{
+  display: flex;
+  flex-wrap: wrap;
+}
+.care{
+  padding-left: 50px;
+  width: 80vw;
+}
+.watch-link{
+  position: absolute;
+  left: -50px;
+}
+.swa{
+  font-size: 20px;
+  width: 60vw;
+  padding-left: 40px;
+}
+.last{
+  width: 80vw;
+  display: flex;
+ flex-direction: column;
+}
+.smart{
+  width: 80vw;
+
+}
+.pp{
+  width: 60vw;
+}
+.eleva{
+  width: 80vw;
+  display: flex;
+ flex-direction: column;
+ justify-content: start;
+ align-items: start;
+margin-left: 10%;
+}
+.el-text{
+  font-size: 20px;
+  width:40vw;
+  padding-top: 10%;
+}
+.el{
+  
+  font-size: 10px;
+
+}
+.seba{
+  width: 20vw;
+  height: 5vh;
+}
+.jm{
+  height: 60vh;
+  width: 80vw;
+}
 }
