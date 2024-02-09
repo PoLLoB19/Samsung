@@ -864,7 +864,9 @@
   font-size: 15px;
   border-bottom: 2px solid #00838f00;
 }
-
+.ho{
+  display: none;
+}
 .vaa {
   padding-bottom: 5%;
   font-size: 20px;
@@ -1182,11 +1184,14 @@ margin-left: 0;
 min-height: 100vh;
 }
 .custom-image{
-  width: 10vw;
-  height: 8vh;
+  width: 8vw;
+  height: 12vh;
 }
 .custo{
   width: 40vw;
+}
+.custom-box{
+  height: 80vh;
 }
 .custom-text{
   width: 40vw;
@@ -1207,7 +1212,14 @@ min-height: 100vh;
   width: 80%;
   background-color: #f4f4f4;
 }
+.drop{
+     width: 80vw;
+     margin-left: 20%;
+}
+.jh{
+  width: 40vw;
 
+}
 .vdd{
   width: 40vw;
 }
@@ -1219,7 +1231,8 @@ min-height: 100vh;
 }
 
 .watch{
-  width: 30vw;
+  width: 80vw;
+  margin-left: 5%;
   overflow: visible;
 }
 .watch-one{
@@ -1231,5 +1244,235 @@ min-height: 100vh;
   width: 80vw;
 }
 
+
+}
+
+@media screen and (max-width:450px) {
+ .nav{
+  padding: 5px 5px 0 15px;
+ }
+  .nav-header{
+     font-size: 15px;
+   
+  }
+  .arrow{
+    padding-left: 5px;
+  }
+  .nav-icon{
+    font-size: 15px;
+  }
+  .nav-blank{
+      margin-left: 20px;
+  }
+  .blank-link{
+    font-size: 10px;
+    font-weight: 900;
+  }
+
+ .mainh1{
+  font-size: 30px;
+  padding-left: 35%;
+  width: 50vw;
+ }
+
+
+
+ .aj{
+  padding: 0;
+  font-size: 10px;
+ 
+ }
+
+ .grid{
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 80vw;
+  padding-left: 0;
+  
+ }
+ .video1{
+  grid-column: 1/span2;
+ }
+ .video2{
+  grid-column: 1;
+  grid-row: 2/span 3;
+  height: 80vh;
+ }
+ .video4{
+  grid-row: 2;
+  grid-column: 2;
+  height: 40vh;
+ }
+ .video5{
+  grid-column: 1/span2;
+  grid-row: 4;
+ 
+ }
+ .video6{
+  grid-column: 2;
+  grid-row: 3;
+  height: 40vh;
+ }
+ .grid2{
+  display: flex;
+  flex-direction: column;
+ }
+.asol{
+  display: none;
+}
+.ho{
+  display: block;
+  width: 80vw;
+}
+.meye-writing{
+  display: none;
+}
+.col{
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  
+}
+.col1{
+  width: 80vw;padding-bottom: 10px;
+}
+.button{
+  width: 20vw;
+}
+
+.car{
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 80vw;
+  gap: 20px;
+}
+.case{
+  width: 40vw;
+  padding-left: 50%;
+display: flex;
+flex-direction: column;
+  
+}
+.main-case{
+  grid-column: 1/ span 2;
+  grid-row: 1;
+ 
+}
+.camera-case{
+  grid-column: 1;
+  height: 40vh;
+  grid-row: 2;
+}
+.side-case{
+  grid-column: 2;
+
+}
+.fir{
+  grid-row: 3;
+  grid-column: 1/span2;
+}
+.the-img{
+  width: 80vw;
+  height: 50vh;
+ margin: 0;
+}
+.posi-img{
+ margin: 0;
+}
+.another{
+  margin: 15%;
+  width: 40vw;
+}
+.amar{
+  position: static;
+  display: flex;
+  flex-direction: column;
+
+}
+.amar1 ,.amar2 , .amar3 {
+  width: 60vw;
+  font-size: 15px;
+  padding: 10px;
+
+}
+.ata{
+  margin-left: 10px;
+}
+.bet{
+  display: flex;
+  flex-direction: column;
+width: 50vw;
+margin-top: 20px;
+  padding: 0;
+}
+.better{
+  width: 80vw;
+ 
+}
+
+.cam{
+  font-size: 25px;
+  padding-left: 10px;
+}
+.selfie{
+ margin:  0;
+}
+.sel-two{
+  width: 50vw;
+
+  font-size: 10px;
+}
+.pose{
+  width: 40vw;
+  padding-left: 20px;
+  font-size: 10px;
+}
+.at{
+  display: flex;
+  flex-direction: column;
+}
+.at-first{
+  width: 60vw;
+}
+.at-sec{
+  width: 60vw;
+}
+.at-thi{
+  width: 60vw;
+}
+.at-img{
+  width: 80vw;
+}
+.to{
+
+}
+.mul-p1{
+  font-size: 25px;
+}
+.mul-p2, .mul-p3{
+  width: 60vw;
+}
+.lock{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding: 0;
+  margin: 0;
+  height: 30vh;
+  width: 80vw;
+}
+.lock-img{
+  width: 10vw;
+padding: 0;
+}
+.lock-one{
+  font-size: 15px;
+  padding: 0;
+  width: 40vw;
+}
+.lock-two{
+  font-size: 10px;
+  width: 50vw;
+}
 
 }
